@@ -1,0 +1,41 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi-org-simple"
+
+[packages]
+boto3 = "==1.17.11"
+pandas = ">=0.25.*"
+s3fs = "==0.3.4"
+scipy = ">=1.3.*"
+beautifulsoup4 = "==4.8.*"
+bokeh = ">=2.0"
+cloudpickle = "==1.5.*"
+cython = "==0.29.*"
+dask = "*"
+dill = "==0.3.*"
+distributed = "*"
+h5py = "==2.9.*"
+ipywidgets = ">=7.5.0"
+jupyter-bokeh = "*"
+matplotlib = "==3.1.*"
+plotly = ">=4.5.0"
+pyarrow = "*"
+scikit-image = "*"
+scikit-learn = "*"
+seaborn = "*"
+sqlalchemy = "==1.3.*"
+statsmodels = "==0.10.*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true

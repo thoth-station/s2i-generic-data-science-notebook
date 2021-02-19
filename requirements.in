@@ -1,0 +1,30 @@
+# packages
+
+### scipy-notebook
+
+beautifulsoup4
+bokeh
+cloudpickle
+cython
+dask
+dill
+distributed
+h5py
+ipywidgets
+matplotlib
+pandas
+plotly
+pyarrow
+s3fs
+scikit-image
+scikit-learn
+scipy
+seaborn
+sqlalchemy
+statsmodels
+boto3
+kafka-python
+
+# extensions
+
+jupyter-bokeh
