@@ -2,6 +2,7 @@
 
 ### scipy-notebook
 
+boto3
 beautifulsoup4
 bokeh
 cloudpickle
@@ -11,20 +12,20 @@ dill
 distributed
 h5py
 ipywidgets
+kafka-python
 matplotlib
 pandas
 plotly
 pyarrow
 s3fs
+scipy
 scikit-image
 scikit-learn
-scipy
 seaborn
 sqlalchemy
 statsmodels
-boto3
-kafka-python
 
 # extensions
 
 jupyter-bokeh
+jupyerlab-git
