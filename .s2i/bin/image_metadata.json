@@ -1,12 +1,27 @@
 {
-  "labels": [
-    {"summary":"S2I generic data science jupyter notebook."},
-    {"name":"thoth-station/s2i-generic-data-science-notebook:latest"}
-    {"io.k8s.display-name":"Jupyter Notebook"},
-    {"io.k8s.description":"S2I generic data science jupyter notebook."},
-    {"io.k8s.description":"S2I generic data science jupyter notebook."},
-    {"io.openshift.s2i.scripts-url":"image:///opt/app-root/builder"},
-    {"io.s2i.scripts-url":"image:///opt/app-root/builder"},
-    {"io.openshift.tags":"aicoe,builder,minimal,notebook,jupyter,python"}
-  ]
+    "labels": [{
+            "summary": "S2I generic data science jupyter notebook."
+        },
+        {
+            "name": "thoth-station/s2i-generic-data-science-notebook:latest"
+        },
+        {
+            "io.k8s.display-name": "Jupyter Notebook"
+        },
+        {
+            "io.k8s.description": "S2I generic data science jupyter notebook."
+        },
+        {
+            "io.k8s.description": "S2I generic data science jupyter notebook."
+        },
+        {
+            "io.openshift.s2i.scripts-url": "image:///opt/app-root/builder"
+        },
+        {
+            "io.s2i.scripts-url": "image:///opt/app-root/builder"
+        },
+        {
+            "io.openshift.tags": "aicoe,builder,minimal,notebook,jupyter,python"
+        }
+    ]
 }
