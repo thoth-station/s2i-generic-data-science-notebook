@@ -37,6 +37,7 @@ We have configured this repository to used pipenv and micropipenv python depende
 
 ```
 - jupyter-bokeh
+- jupyterlab-git
 ```
 
 ## Importing the Generic Data Science Notebook
