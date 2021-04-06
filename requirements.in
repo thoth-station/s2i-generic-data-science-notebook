@@ -1,31 +1,29 @@
-# packages
-
-### scipy-notebook
-
-boto3
-beautifulsoup4
-bokeh
-cloudpickle
-cython
+--index-url https://pypi.org/simple
+--extra-index-url https://pypi.org/simple
+#
+# Default dependencies
+#
+boto3==1.17.11
+beautifulsoup4==4.8.*
+bokeh>=2.0
+cloudpickle==1.5.*
+cython==0.29.*
 dask
-dill
+dill==0.3.*
 distributed
-h5py
-ipywidgets
+h5py==2.9.*
+ipywidgets>=7.5.0
+jupyter-bokeh
+jupyterlab-git==0.30.0b2
 kafka-python
-matplotlib
-pandas
-plotly
+matplotlib==3.1.*
+pandas>=0.25.*
+plotly>=4.5.0
 pyarrow
-s3fs
-scipy
+s3fs==0.3.4
+scipy>=1.3.*
 scikit-image
 scikit-learn
 seaborn
-sqlalchemy
-statsmodels
-
-# extensions
-
-jupyter-bokeh
-jupyerlab-git
+sqlalchemy==1.3.*
+statsmodels==0.10.*

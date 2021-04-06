@@ -75,6 +75,7 @@ With [Thoth](https://thoth-station.ninja/) advise
 
 ```bash
 s2i build . quay.io/thoth-station/s2i-minimal-notebook:latest \
+--env THAMOS_RUNTIME_ENVIRONMENT="" \
 --env ENABLE_MICROPIPENV=1 \
 --env THOTH_ADVISE=1 \
 --env THOTH_DRY_RUN=0 \
@@ -86,6 +87,7 @@ Without [Thoth](https://thoth-station.ninja/) advise
 
 ```bash
 s2i build . quay.io/thoth-station/s2i-minimal-notebook:latest \
+--env THAMOS_RUNTIME_ENVIRONMENT="" \
 --env ENABLE_MICROPIPENV=1 \
 --env THOTH_ADVISE=0 \
 --env THOTH_ERROR_FALLBACK=1 \
