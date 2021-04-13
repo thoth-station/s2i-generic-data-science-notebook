@@ -13,6 +13,10 @@ jupyter nbextension enable --py widgetsnbextension --sys-prefix
 
 jupyter lab build
 
+# Enable jupyterlab-s3-browser for s3 storage browsing
+
+jupyter serverextension enable --py jupyterlab_s3_browser
+
 # Install facets which does not have a pip package.
 
 cd /tmp
