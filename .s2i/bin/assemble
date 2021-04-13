@@ -4,38 +4,22 @@ set -x
 
 set -eo pipefail
 
-
 # Execute original assemble script.
 
 /opt/app-root/builder/assemble
 
 # Activate ipywidgets extension.
-
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 
-# Also activate ipywidgets/bokeh extension for JupyterLab.
-
-jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
-# jupyter labextension install @bokeh/jupyter_bokeh --no-build
-
 jupyter lab build
-
-# Enable bokeh extension also for single notebooks
-
-jupyter nbextension enable  --sys-prefix --py jupyter_bokeh
 
 # Install facets which does not have a pip package.
 
 cd /tmp
-
 git clone https://github.com/PAIR-code/facets.git
-
 cd facets
-
 jupyter nbextension install facets-dist/ --sys-prefix
-
 cd $HOME
-
 rm -rf /tmp/facets
 
 # Import matplotlib the first time to build the font cache.

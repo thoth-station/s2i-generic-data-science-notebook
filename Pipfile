@@ -11,7 +11,7 @@ name = "pypi-org-simple"
 [packages]
 boto3 = "==1.17.11"
 beautifulsoup4 = "==4.8.*"
-bokeh = ">=2.0"
+bokeh = "*"
 cloudpickle = "==1.5.*"
 cython = "==0.29.*"
 dask = "*"
