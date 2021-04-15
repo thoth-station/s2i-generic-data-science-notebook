@@ -17,3 +17,18 @@
 ### Improvements
 * udpated requirements and README.md
 * updated thoth configuration and pre-commits
+
+## Release 0.0.3 (2021-04-15T04:38:57)
+### Features
+* :zap: update the requirements.in and environment
+* :whale: enable jupyterlab-s3-browser extension for browsing s3 storage (#19)
+* :zap: labextension updated based on jupyterlab 3
+* :arrow_up: Automatic update of dependencies by Kebechet (#17)
+* :arrow_up: Automatic update of dependencies by Kebechet (#16)
+* update extension list (#14)
+* :arrow_up: Automatic update of dependencies by Kebechet
+### Bug Fixes
+* :construction_worker: fix the thoth configuration file
+### Improvements
+* :arrow_up: set the latest version of the s2i-minimal base image
+* :robot: ci updates w.r.t prow and pre-commit
