@@ -45,8 +45,6 @@ We have configured this repository to used pipenv and micropipenv python depende
 
 A pre-built version of the Generic data science notebook based on [Thoth s2i-minimal-notebook](https://github.com/thoth-station/s2i-minimal-notebook), can be found at quay.io:
 
-[![Docker Repository on Quay](https://quay.io/repository/thoth-station/s2i-generic-data-science-notebook/status "Docker Repository on Quay")](https://quay.io/repository/thoth-station/s2i-generic-data-science-notebook)
-
 - <https://quay.io/repository/thoth-station/s2i-generic-data-science-notebook>
 
 This image could be imported into an OpenShift cluster using OpenShift ImageStream:
