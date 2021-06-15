@@ -16,7 +16,7 @@ jupyter lab build
 # Enable jupyterlab-s3-browser for s3 storage browsing
 
 jupyter serverextension enable --py jupyterlab_s3_browser
-
+jupyter labextension install @elyra/python-editor-extension
 # Install facets which does not have a pip package.
 
 cd /tmp
