@@ -32,3 +32,14 @@
 ### Improvements
 * :arrow_up: set the latest version of the s2i-minimal base image
 * :robot: ci updates w.r.t prow and pre-commit
+
+## Release 0.0.4 (2021-06-16T12:47:48)
+### Features
+* :whale: remove the constraint on the beautifulsoup package
+* :panda_face: enable users to use pre-commit in the notebooks
+* :turtle: enable plugin for python editor
+* :arrow_up: Automatic update of dependencies by Kebechet
+* :arrow_up: Automatic update of dependencies by Kebechet
+* :arrow_up: Automatic update of dependencies by Kebechet (#25)
+* Update README.md
+* :arrow_up: Automatic update of dependencies by Kebechet
