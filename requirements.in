@@ -19,6 +19,7 @@ jupyterlab-git==0.30.0
 jupyterlab-s3-browser
 kafka-python
 matplotlib==3.1.*
+numpy
 pandas>=0.25.*
 plotly>=4.5.0
 pyarrow
