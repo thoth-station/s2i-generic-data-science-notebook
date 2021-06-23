@@ -4,17 +4,18 @@
 # Default dependencies
 #
 boto3==1.17.11
-beautifulsoup4==4.8.*
+beautifulsoup4
 bokeh
 cloudpickle==1.5.*
 cython==0.29.*
 dask
 dill==0.3.*
 distributed
+elyra-python-editor-extension
 h5py==2.9.*
 ipywidgets>=7.5.0
 jupyter-bokeh
-jupyterlab-git==0.30.0b2
+jupyterlab-git==0.30.0
 jupyterlab-s3-browser
 kafka-python
 matplotlib==3.1.*
