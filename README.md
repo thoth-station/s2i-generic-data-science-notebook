@@ -4,7 +4,7 @@ Custom Notebook built with Thoth s2i-minimal-notebook.
 
 This custom notebook contains [SciPy](https://www.scipy.org/) , Boto3, Pandas, Kafka-python related packages installed with minimal notebook for Data Science usage. This image can be directly used if user needed these package while using the minimal jupyter notebook.
 
-We have configured this repository to used pipenv and micropipenv python dependency managers.
+We have configured this repository to use pipenv and micropipenv python dependency managers.
 
 # List of packages in generic-data-science-notebook
 
@@ -19,6 +19,7 @@ We have configured this repository to used pipenv and micropipenv python depende
 - h5py
 - ipywidgets
 - matplotlib
+- numpy
 - pandas
 - plotly
 - pyarrow
