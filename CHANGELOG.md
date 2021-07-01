@@ -43,3 +43,11 @@
 * :arrow_up: Automatic update of dependencies by Kebechet (#25)
 * Update README.md
 * :arrow_up: Automatic update of dependencies by Kebechet
+
+## Release 0.0.5 (2021-07-01T15:40:49)
+### Features
+* Add numpy to generic ds image
+### Bug Fixes
+* fix match of pipfile with requirements.in
+### Improvements
+* :cloud: upgrade the base image and dependencies
