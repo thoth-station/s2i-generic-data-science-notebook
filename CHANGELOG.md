@@ -1,4 +1,8 @@
 
+## Release 0.1.0 (2021-11-26T19:07:29)
+* fix the pre-commit git url issue
+* Update the base image to v0.2.1 minimal notebook
+
 ## Release 0.0.1 (2021-03-25T05:20:46)
 ### Features
 * patch the jupyterlab manager extension
