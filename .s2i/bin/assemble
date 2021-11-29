@@ -4,10 +4,11 @@ set -x
 
 set -eo pipefail
 
-
 # Execute original assemble script.
 
 /opt/app-root/builder/assemble
+
+pip3 uninstall -y jupyterlab-requirements
 
 # Activate ipywidgets extension.
 
