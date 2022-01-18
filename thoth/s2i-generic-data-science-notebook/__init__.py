@@ -19,4 +19,4 @@
 
 
 __name__ = "s2i-generic-data-science-notebook"
-__version__ = "0.0.5"
+__version__ = "0.1.0"
