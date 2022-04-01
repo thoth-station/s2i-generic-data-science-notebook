@@ -1,12 +1,12 @@
 ---
 repos:
   - repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.1.10
+    rev: v1.1.13
     hooks:
       - id: remove-tabs
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v4.1.0
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -24,10 +24,9 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/psf/black
-    rev: 21.11b1
+    rev: 22.3.0
     hooks:
       - id: black
-        additional_dependencies: ['click==8.0.4']
 
   - repo: https://gitlab.com/PyCQA/flake8
     rev: '3.9.2'
