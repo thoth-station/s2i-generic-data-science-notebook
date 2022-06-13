@@ -11,3 +11,18 @@ presubmits:
             - "pre-commit"
             - "run"
             - "--all-files"
+            
+  - name: import-test
+    decorate: true
+    skip_report: false
+    always_run: true
+    context: aicoe-ci/prow/import-test
+    spec:
+      containers:
+        - image: quay.io/thoth-station/s2i-generic-data-science-notebook:latest
+          command:
+            - /bin/sh
+            - '-c'
+            - >-
+              pip install papermill && papermill -k python
+              "test.ipynb" -
