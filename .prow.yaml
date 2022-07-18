@@ -11,7 +11,7 @@ presubmits:
             - "pre-commit"
             - "run"
             - "--all-files"
-            
+
   - name: import-test
     decorate: true
     skip_report: false
@@ -25,4 +25,4 @@ presubmits:
             - '-c'
             - >-
               pip install papermill && papermill -k python
-              "test.ipynb" -
+              "tests/test.ipynb" -

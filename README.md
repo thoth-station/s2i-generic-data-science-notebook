@@ -9,12 +9,7 @@ We have configured this repository to use pipenv and micropipenv python dependen
 # List of packages in generic-data-science-notebook
 
 ```
-- beautifulsoup4
-- bokeh
-- cloudpickle
-- cython
 - dask
-- dill
 - distributed
 - h5py
 - ipywidgets
@@ -40,6 +35,7 @@ We have configured this repository to use pipenv and micropipenv python dependen
 - jupyter-bokeh
 - jupyterlab-git
 - jupyterlab-s3-browser
+- elyra-python-editor-extension
 ```
 
 ## Importing the Generic Data Science Notebook
@@ -75,7 +71,7 @@ Instead of using the pre-built version of the minimal notebook, you can build th
 With [Thoth](https://thoth-station.ninja/) advise
 
 ```bash
-s2i build . quay.io/thoth-station/s2i-minimal-notebook:latest \
+s2i build . quay.io/thoth-station/s2i-minimal-py38-notebook:latest \
 --env THAMOS_RUNTIME_ENVIRONMENT="" \
 --env ENABLE_MICROPIPENV=1 \
 --env THOTH_ADVISE=1 \
@@ -87,7 +83,7 @@ s2i-generic-data-science-notebook
 Without [Thoth](https://thoth-station.ninja/) advise
 
 ```bash
-s2i build . quay.io/thoth-station/s2i-minimal-notebook:latest \
+s2i build . quay.io/thoth-station/s2i-minimal-py38-notebook:latest \
 --env THAMOS_RUNTIME_ENVIRONMENT="" \
 --env ENABLE_MICROPIPENV=1 \
 --env THOTH_ADVISE=0 \

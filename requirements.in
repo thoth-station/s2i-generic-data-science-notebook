@@ -1,22 +1,15 @@
 --index-url https://pypi.org/simple
---extra-index-url https://pypi.org/simple
 #
 # Default dependencies
 #
-boto3==1.17.11
-beautifulsoup4
+black==21.6b0
+boto3==1.21.0
 bokeh
-cloudpickle
 cython
-dask
 dill
 distributed
-elyra-python-editor-extension==2.2.4
 h5py
 ipywidgets>=7.5.0
-jupyter-bokeh
-jupyterlab-git==0.30.0
-jupyterlab-s3-browser
 kafka-python
 matplotlib
 numpy
@@ -24,10 +17,17 @@ pandas
 plotly
 pre-commit
 pyarrow
-s3fs==0.3.4
+s3fs
 scipy
 scikit-image
 scikit-learn
 seaborn
 sqlalchemy
 statsmodels
+jupyter-bokeh
+jupyterlab~=3.1.0
+jupyterlab-git>=0.30.0
+jupyterlab-s3-browser
+elyra-python-editor-extension==3.0.5
+python-lsp-server[all]==1.2.4
+autopep8<1.5.6,>=1.5.0
