@@ -1,4 +1,11 @@
 
+## Release 0.2.0 (2022-07-19T02:09:03)
+* f4d988f :recycle: HouseKeeping: Updated OWNERS and dependencies requirements
+* fcd0328 test prow unit test
+* cd51172 set the latest build to be tagged release
+* f973635 Fix click version
+* 7c587a5 Update base image version
+
 ## Release 0.1.0 (2022-01-03T07:21:58)
 * fix the pre-commit git url issue
 * Update the base image to v0.2.1 minimal notebook
