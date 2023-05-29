@@ -1,28 +1,25 @@
 presubmits:
-  - name: pre-commit
-    decorate: true
-    skip_report: false
-    always_run: true
-    context: aicoe-ci/prow/pre-commit
-    spec:
-      containers:
-        - image: quay.io/thoth-station/thoth-precommit-py38:v0.14.3
-          command:
-            - "pre-commit"
-            - "run"
-            - "--all-files"
-
-  - name: import-test
-    decorate: true
-    skip_report: false
-    always_run: true
-    context: aicoe-ci/prow/import-test
-    spec:
-      containers:
-        - image: quay.io/thoth-station/s2i-generic-data-science-notebook:latest
-          command:
-            - /bin/sh
-            - '-c'
-            - >-
-              pip install papermill && papermill -k python
-              "tests/test.ipynb" -
+- always_run: true
+  context: op1st/prow/pre-commit
+  decorate: true
+  name: pre-commit
+  skip_report: false
+  spec:
+    containers:
+    - command:
+      - pre-commit
+      - run
+      - --all-files
+      image: quay.io/thoth-station/thoth-precommit-py38:v0.15.0
+- always_run: true
+  context: op1st/prow/import-test
+  decorate: true
+  name: import-test
+  skip_report: false
+  spec:
+    containers:
+    - command:
+      - /bin/sh
+      - -c
+      - pip install papermill && papermill -k python "tests/test.ipynb" -
+      image: quay.io/thoth-station/s2i-generic-data-science-notebook:v0.15.0
